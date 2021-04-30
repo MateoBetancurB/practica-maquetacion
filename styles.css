@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section1 {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.section1 a {
+    margin: 0 20px 0 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 50px;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.header a:nth-child(1) {
+    margin-left: 20px;
+}
+
+.header a:nth-child(2) {
+    margin-right: 20px;
+}
