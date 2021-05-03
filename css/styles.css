@@ -8,6 +8,9 @@ body {
     font-family: sans-serif;
 }
 
+
+/* inicio del header */
+
 .header {
     background-color: #3d84b8;
     width: 100vw;
@@ -80,4 +83,44 @@ img:hover {
 
 .header__menu--profile p:hover {
     cursor: pointer;
+}
+
+
+/* fin del header */
+
+
+/* inicio de buscador */
+
+.main {
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__title {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input {
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 50px;
+    border: 5px solid white;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    padding: 0px 20px;
+    width: 70%;
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+    font-size: 19px;
 }
