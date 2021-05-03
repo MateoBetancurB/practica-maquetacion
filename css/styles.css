@@ -11,10 +11,9 @@ body {
     background-color: #3d84b8;
     width: 100vw;
     height: 90px;
-}
-
-.header h1 {
-    opacity: 0.1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__img {
@@ -27,4 +26,31 @@ body {
     margin-right: 30px;
 }
 
-.header__menu--profile {}
+.header__menu ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    width: 100px;
+    text-align: right;
+    margin: 0px 0px 0px -14px;
+}
+
+.header__menu:hover ul,
+ul:hover {
+    display: block;
+}
+
+.header__menu li {
+    margin: 10px 0px;
+}
+
+.header__menu--profile {
+    margin-right: 8px;
+    width: 40px;
+}
+
+.header__menu--profile img {
+    width: 100%;
+    /* margin-top: 15px; */
+}
