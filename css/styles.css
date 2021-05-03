@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #77acf1;
+}
+
+.header {
+    background-color: #3d84b8;
+    width: 100vw;
+    height: 90px;
+}
+
+.header h1 {
+    opacity: 0.1;
+}
+
+.header__img {
+    width: 200px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.header__menu {
+    margin-right: 30px;
+}
+
+.header__menu--profile {}
